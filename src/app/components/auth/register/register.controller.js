@@ -1,3 +1,8 @@
-/**
- * Created by kostyantynvakhrushev on 14.03.17.
- */
+
+function RegisterController(){
+    var ctrl = this;
+}
+
+angular
+    .module('components.auth')
+    .controller('RegisterController', RegisterController);
